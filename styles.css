@@ -1,6 +1,6 @@
 /* ===== CSS Reset (Best Practice) ===== */
 :root {
-  --primary-color: #191970; /* Midnight Black */
+  --primary-color: #0000FF; /* Blue */
   --secondary-color: #f8f8f8; /* Light contrast for readability */
   --text-color: #ffffff; /* White text for contrast */
   --font-family: 'Arial', sans-serif; /* Fallback font stack */
