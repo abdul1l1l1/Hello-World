@@ -22,6 +22,32 @@ body {
   padding: 20px;
 }
 
+/* Global Indentation Rules */
+p {
+  text-indent: 1.5em; /* Indent the first line of every paragraph */
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  margin-left: 2em; /* Indent lists */
+  padding-left: 1em;
+}
+
+blockquote {
+  margin-left: 1.5em; /* Indent blockquotes */
+  padding-left: 1em;
+  border-left: 3px solid var(--secondary-color);
+}
+
+pre, code {
+  display: block;
+  margin-left: 1em; /* Indent code blocks */
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
