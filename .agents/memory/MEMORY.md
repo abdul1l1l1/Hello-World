@@ -1,1 +1,2 @@
 - [Transparent logo assets](transparent-logo-assets.md) — Verify downloaded “transparent” PNGs because checkerboards may be baked into the image.
+- [GitHub repository saves](github-repository-saves.md) — Terminal Git credentials may be stale; use the attached GitHub connection API when pushes reject authentication.
