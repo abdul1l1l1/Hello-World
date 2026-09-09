@@ -1,0 +1,1 @@
+- [Transparent logo assets](transparent-logo-assets.md) — Verify downloaded “transparent” PNGs because checkerboards may be baked into the image.

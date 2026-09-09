@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "AkI-jk62pReCFGApQa9YU"
+uri = "file://images/spotify-logo.png"
+type = "image"
+title = "Spotify logo copy"
+description = "Transparent PNG copy saved in the project root under images/spotify-logo.png."
+logical_id = "68379229-2ef4-45fb-a79b-5effe827424d"
+content_hash = "sha256:c02a2a79a1e79b71b67bbc1b4f2f5291811f56224791a2edd6e1de62d3c54b62"
+size = 112237
+mtime_ms = 1788457716084
+storage_uri = "gcs://replit-rams-assets-reed/rams/assets/repl:ea738483-1100-4117-b6d8-eb701e744931/68379229-2ef4-45fb-a79b-5effe827424d/cbebbbc2-b874-43fc-8d15-ca4d29d0f8e1"
+storage_version_token = "1788457723128035"
+content_type = "image/png"
