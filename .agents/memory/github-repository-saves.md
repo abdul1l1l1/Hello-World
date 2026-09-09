@@ -8,3 +8,5 @@ Use the attached GitHub connection API to create blobs, a tree, a commit, and up
 **Why:** Attaching the GitHub connection does not replace stale credentials used by the terminal Git client, so retrying the same push still fails.
 
 **How to apply:** Attempt the normal push first. If GitHub rejects the stored username or token, use the authenticated connector API to upload the tracked snapshot and verify the resulting commit.
+
+Workflow files require GitHub's separate workflow-edit permission. If the connector lacks it, do not repeatedly retry workflow-content writes. For a static site, GitHub Pages can instead publish directly from the repository branch while the outdated custom workflow is disabled.
